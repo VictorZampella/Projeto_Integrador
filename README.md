@@ -12,10 +12,6 @@ Este projeto foi desenvolvido como parte do Projeto Integrador do Senac. Trata-s
 - HTML
 - CSS
 
-## Como Executar o Projeto
-1. Clone este repositório: `git clone https://github.com/seu-usuario/projeto-nutricionista.git`
-2. Navegue até o diretório do projeto: `cd projeto-nutricionista`
-3. Abra o arquivo `index.html` em seu navegador.
 
 ## Autor
 Desenvolvido por **Victor de Curtis Oliveira Zampella** como parte do Projeto Integrador do Senac.
