@@ -64,23 +64,23 @@ h1{
 
 
 section {
-    max-width: 600px; /* Define uma largura máxima para melhor leitura */
+    max-width: 600px; /* largura máxima para melhor leitura */
     margin: 0 auto; /* Centraliza o conteúdo */
-    font-family: Arial, sans-serif; /* Fonte mais elegante e legível */
+    font-family: Arial, sans-serif; 
     line-height: 1.6; /* Espaçamento entre linhas */
 }
 
 h3 {
-    text-align: center; /* Centraliza o título */
+    text-align: center; 
     color: #FFD700;
 
 }
 
 .formacao {
-    background-color: #f9f9f9; /* Fundo sutil para destaque */
+    background-color: #f9f9f9; /* Fundo sutil */
     padding: 10px;
     margin: 15px 0;
-    border-radius: 20px; /* Bordas arredondadas para um visual moderno */
+    border-radius: 20px; /* Bordas arredondadas */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
@@ -95,7 +95,7 @@ p {
 }
 
 strong {
-    color: #222; /* Deixa os títulos dos cursos mais destacados */
+    color: #222; /* títulos dos cursos mais destacados */
 }
 
 
@@ -110,12 +110,15 @@ footer{
 }
 
 footer p {
-    color: blackg; /* Troque pela cor desejada */
-    font-size: 16px; /* Opcional: Ajusta o tamanho do texto */
-    font-weight: bold; /* Opcional: Deixa o texto em negrito */
+    color: black; /*  cor */
+    font-size: 16px; 
+    font-weight: bold; /*negrito */
 }
 
 
 nav a:hover{
     color: #3a0ca3;
 }
+
+
+
