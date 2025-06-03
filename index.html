@@ -1,75 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nadir Oliveira da Silva</title>
+    <title>Dra. Nadir Oliveira da Silva - Nutricionista</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html">Sobre mim</a>
-            </li>
-            <li>
-                <a href="project.html">Projetos</a>
-            </li>
-            <li>
-                <a href="contact.html">Contato</a>
-            </li>
-        </ul>
-    </nav>
-
-    <header>
-        <div class="center">
-            <img src="./img/nadir.jpg"></img>
-        </div>
-        <h1 class="titulo">Nadir Silva</h1>
-        <h2 class="subtitulo">Nutricionista</h2>
-
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>Dra. Nadir Oliveira da Silva</h2>
+                <span>Nutricionista</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
     </header>
-<main>
-    <section>
-        <h3>Sobre Mim</h3>
-    
-        <div class="sobre">
-            <p>Meu nome é Nadir Oliveira da Silva, sou modelista de confecção há mais de 35 anos  
-                e sempre tive paixão por aprender coisas novas.</p>
-    
-            <p>Agora, estou realizando um grande sonho: cursar faculdade de Nutrição,  
-                algo que sempre admirei e quis seguir.</p>
-    
-            <p>Atualmente, estou no 5º semestre e meu próximo objetivo é me especializar em nutrição para idosos,  
-                pois acredito que uma alimentação saudável pode transformar vidas em qualquer fase.</p>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Transforme sua relação com a alimentação</h1>
+                <p>Sou nutricionista especializada em emagrecimento saudável e reeducação alimentar. Vamos juntas construir hábitos que vão transformar sua vida!</p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
+                    <a href="#sobre" class="btn btn-secondary">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/nadir.jpg" alt="Dra. [Nadir] - Nutricionista">
+            </div>
         </div>
     </section>
-    <section>
-        <h3>Formação Acadêmica</h3>
-    
-        <div class="formacao">
-            <h4>Faculdade SENAI Engenheiro Adriano José Marchini</h4>
-            <p><strong>Tecnóloga em Tecnologia em Produção do Vestuário</strong></p>
-            <p>2009 - 2012</p>
-            <p>Monitora de CAD Audaces para execução de modelagem de roupas em geral</p>
-        </div>
-    
-        <div class="formacao">
-            <h4>Pro Moda</h4>
-            <p><strong>Professora de Modelagem Industrial – Masculino, Feminino e Infantil</strong></p>
-            <p>1987 - 2001</p>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-image">
+                    <img src="/placeholder.svg?height=500&width=400" alt="Sobre a nutricionista">
+                </div>
+                <div class="sobre-text">
+                    <h2>Sobre Mim</h2>
+                    <p>Olá! Sou a Dra. [Nome], nutricionista formada pela [Universidade] com mais de [X] anos de experiência em nutrição clínica e esportiva.</p>
+                    <p>Minha missão é ajudar pessoas a desenvolverem uma relação saudável com a comida, promovendo não apenas a perda de peso, mas principalmente a melhoria da qualidade de vida através de uma alimentação equilibrada e prazerosa.</p>
+                    
+                    <div class="credenciais">
+                        <h3>Formação e Especializações:</h3>
+                        <ul>
+                            <li>Graduação em Nutrição - [Universidade]</li>
+                            <li>Especialização em Nutrição Clínica</li>
+                            <li>Pós-graduação em Nutrição Esportiva</li>
+                            <li>CRN: [Número do registro]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-</main>
 
-<footer>
-    <a href="https://www.linkedin.com/in/nadir-oliveira-10559131/" target="_blank" rel="nooperner noreferrer">
-        <img src="./img/icon_linkedin.svg"></img>
-        <p>Linkedin</p>
-    </a>
-</footer>
+    <!-- Serviços Section -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2>Meus Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">🥗</div>
+                    <h3>Consulta Nutricional</h3>
+                    <p>Avaliação completa do seu estado nutricional com plano alimentar personalizado para seus objetivos.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">📊</div>
+                    <h3>Acompanhamento</h3>
+                    <p>Monitoramento regular do seu progresso com ajustes no plano alimentar conforme necessário.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">🏃‍♀️</div>
+                    <h3>Nutrição Esportiva</h3>
+                    <p>Planos alimentares específicos para atletas e praticantes de atividade física regular.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">👶</div>
+                    <h3>Nutrição Materno-Infantil</h3>
+                    <p>Acompanhamento nutricional durante gestação, amamentação e introdução alimentar.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">🧠</div>
+                    <h3>Reeducação Alimentar</h3>
+                    <p>Mudança de hábitos alimentares de forma gradual e sustentável para toda a vida.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">💻</div>
+                    <h3>Consulta Online</h3>
+                    <p>Atendimento à distância com a mesma qualidade da consulta presencial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Depoimentos Section -->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <h2>O que dizem minhas pacientes</h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-text">
+                        <p>"Perdi 15kg de forma saudável e aprendi a me alimentar corretamente. A Dra. [Nome] mudou minha vida!"</p>
+                    </div>
+                    <div class="depoimento-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Maria Silva">
+                        <div>
+                            <h4>Maria Silva</h4>
+                            <span>Perdeu 15kg</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-text">
+                        <p>"Finalmente consegui uma relação saudável com a comida. O acompanhamento é excepcional!"</p>
+                    </div>
+                    <div class="depoimento-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Ana Costa">
+                        <div>
+                            <h4>Ana Costa</h4>
+                            <span>Reeducação alimentar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-text">
+                        <p>"Profissional incrível! Me ajudou durante toda a gestação e agora na amamentação."</p>
+                    </div>
+                    <div class="depoimento-author">
+                        <img src="/placeholder.svg?height=60&width=60" alt="Carla Santos">
+                        <div>
+                            <h4>Carla Santos</h4>
+                            <span>Nutrição materno-infantil</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <h3>Vamos conversar?</h3>
+                    <p>Estou aqui para ajudar você a alcançar seus objetivos de forma saudável e sustentável.</p>
+                    
+                    <div class="contato-item">
+                        <strong>📱 WhatsApp:</strong>
+                        <span>(11) 99999-9999</span>
+                    </div>
+                    <div class="contato-item">
+                        <strong>📧 E-mail:</strong>
+                        <span>contato@nutricionista.com</span>
+                    </div>
+                    <div class="contato-item">
+                        <strong>📍 Endereço:</strong>
+                        <span>Rua das Flores, 123 - São Paulo/SP</span>
+                    </div>
+                    <div class="contato-item">
+                        <strong>🕒 Horário:</strong>
+                        <span>Segunda a Sexta: 8h às 18h</span>
+                    </div>
+                </div>
+                <div class="contato-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Seu telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Dra. Nadir Oliveira da Silva</h3>
+                    <p>Nutricionista CRN: 123.453.564.23</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="WhatsApp">📱</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dra. Nadir Oliveira da Silva. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
